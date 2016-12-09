@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html>
+    {% include head.html %}
 
-  {% include head.html %}
+    <body>
+        <div id="wrapper">
+            {% include header.html %}
 
-  <body>
+            <!-- Main -->
+            <div id="main">
+                <section class="main">
+                    <div class="spotlight">
+                        <div class="content">
+                            {{ content }}
+                        </div>
+                    </div>
+                </section>
+            </div>
 
-    {% include header.html %}
+            {% include footer.html %}
+        </div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
