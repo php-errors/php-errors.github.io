@@ -20,6 +20,8 @@ purposes:
   utilized by the project, and its dependencies.
 - To automatically install an appropriate error handler for the project.
 
+[composer]: https://getcomposer.org/
+
 #### Usage of the error handling packages
 
 To utilize an error handling package, simply choose the package that best
@@ -112,18 +114,10 @@ specification [here][exception-based-error-handler].
 [errorexception]: https://php.net/errorexception
 [exception-based-error-handler]: https://github.com/php-errors/specification/blob/master/exception-based-error-handler.md
 
-## Justification
-
-Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.
-
 ## Contributing
 
-Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.
+To report an issue, or ask a question, please submit an issue, or pull request,
+to the most appropriate repository under the
+[php-errors organization on GitHub].
 
-<!-- References -->
-
-[composer]: https://getcomposer.org/
+[php-errors organization on github]: https://github.com/php-errors
