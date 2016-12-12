@@ -1,4 +1,4 @@
-# Open PHP Error Handler Specifications
+# Open PHP Error Specifications
 
 ## Overview
 

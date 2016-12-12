@@ -1,6 +1,6 @@
-title: Open PHP Error Handler Specifications
+title: Open PHP Error Specifications
 tagline: Standardize your error handling.
 description: >
     This site outlines standards for handling PHP errors, and how to implement
-    these standard within your own projects and libraries.
+    these standards within your own projects and libraries.
 url: https://php-errors.github.io/
