@@ -1649,7 +1649,7 @@
 
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
+		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -1701,7 +1701,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		p.content {
@@ -1719,7 +1719,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.5;
-		margin: 0 0 0.7em 0;
+		margin: 1em 0 0.5em 0;
 		letter-spacing: -0.025em;
 	}
 
@@ -1729,20 +1729,21 @@
 		}
 
 	h1 {
-		font-size: 2.5em;
+		font-size: 3em;
 		line-height: 1.2;
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.2em;
+		font-weight: 400;
 	}
 
 	h5 {
@@ -1776,7 +1777,7 @@
 	blockquote {
 		border-left: solid 4px;
 		font-style: italic;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
 
@@ -1787,13 +1788,14 @@
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
+		white-space: nowrap;
 	}
 
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		pre code {
@@ -2481,7 +2483,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
